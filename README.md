@@ -19,14 +19,14 @@ B. ![AWS S3 Static Website Hosting enabled](./img/AWS-Static-Website-Hosting-Ena
 
 A. ![Azure $web container created](./img/Azure-$web-container.png)
 
-B. ![AWS S3 bucket created](./img/AWS-Uploaded-Website-Files.png
+B. ![AWS S3 bucket created](./img/AWS-Uploaded-Website-Files.png)
 
 
 ## 4. Uploaded my index.html and style.css files to both Azure Blob Storage and AWS S3.
 
 A. ![Azure files uploaded](./img/Azure-uploaded-file.png)
 
-B. ![AWS S3 files uploaded](./img/AWS-Bucket-Policy.png
+B. ![AWS S3 files uploaded](./img/AWS-Bucket-Policy.png)
 
 
 ## 5. Finally, I accessed my static portfolio website using the provided endpoint URLs from both Azure Blob Storage and AWS S3.
