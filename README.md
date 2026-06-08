@@ -1,38 +1,32 @@
-# In this project, I will be showing you how I created and hosted a static portfolio website using AWS S3 and Azure Blob Storage without provisioning.
+# In this project, I would be showing how I make a Linux virtual machine provision, connect using SSH, install a web server, and host a custom website displaying "Welcome to DecodeLabs"
 
 
-## 1. I created my static portfolio website using index.html and style.css files. I used HTML and CSS to design the layout and style of my website.
+## Step 1: Provisioning a Linux Virtual Machine, I used Amazon Web Services (AWS) Elastic Compute Cloud (EC2)EC2 service.
 
-A. ![Azure Storage Account created](./img/storage-acct-created.png)    
-
-B. ![AWS S3 Bucket created](./img/AWS-S3-bucket-created.png)
+![EC2 Instance Running](./img/EC2-instance-running.png)
 
 
-## 2. I enabled static website hosting on both Azure Blob Storage and AWS S3.
+## Step 2: I created a security group rule to allow inbound traffic on port 80 (HTTP) and port 22 (SSH) to access the web server and connect to the instance securely.
 
-A. ![Azure Static Website Hosting enabled](./img/Azure-static-website-enabled.png)
-
-B. ![AWS S3 Static Website Hosting enabled](./img/AWS-Static-Website-Hosting-Enabled.png)
+![Security Group Rule](./img/security-group-rules.png)
 
 
-## 3. Azure automatically created a $web container for hosting the static website, while in AWS S3, I created a S3 bucket manually.
+## Step 3: I connected to the EC2 instance using SSH (Secure Shell) from my local machine.
 
-A. ![Azure $web container created](./img/Azure-$web-container.png)
-
-B. ![AWS S3 bucket created](./img/AWS-Uploaded-Website-Files.png)
+![SSH Terminal Connected](./img/ssh-terminal-connected1.png)
 
 
-## 4. Uploaded my index.html and style.css files to both Azure Blob Storage and AWS S3.
+## Step 4: I installed a web server (Apache) on the EC2 instance to serve web pages.
 
-A. ![Azure files uploaded](./img/Azure-uploaded-file.png)
-
-B. ![AWS S3 files uploaded](./img/AWS-Bucket-Policy.png)
+![Apache Installed](./img/apache-installed.png)
 
 
-## 5. Finally, I accessed my static portfolio website using the provided endpoint URLs from both Azure Blob Storage and AWS S3.
+## Step 5: Finally, I accessed my custom website by entering the public IP address of the EC2 instance in a web browser, and it displayed "Welcome to DecodeLabs".
 
-A. ![Azure website endpoint](./img/Azure-website-running.png)
+![Website Running in Browser](./img/website-running-in-browser.png)
 
-B. ![AWS S3 website endpoint](./img/AWS-Live-Website-URL.png)
+
+
+
 
 
